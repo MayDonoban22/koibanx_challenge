@@ -1,0 +1,24 @@
+{
+  "name": "koibanx_challenge",
+  "version": "1.0.0",
+  "description": "Service for processing Excel files with format validation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
