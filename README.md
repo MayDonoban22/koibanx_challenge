@@ -35,7 +35,7 @@ Servicio de procesamiento de archivos Excel con arquitectura limpia (Clean Archi
 excel-processor-service/
 ├── src/
 │   ├── domain/
-│   │   ├── interfaces/
+│   │   ├── entities/
 │   │   └── value-objects/
 │   ├── application/
 │   │   ├── use-cases/
